@@ -1,5 +1,6 @@
-import React from 'react';
+import React from "react";
+import RestaurantList from "./../components/restaurant-list";
 
 export default function Restaurants() {
-  return <div>Display fetched resturants list</div>;
+  return RestaurantList();
 }
